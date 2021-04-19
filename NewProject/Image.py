@@ -1,9 +1,11 @@
+
 # importing matplotlib modules 
 import matplotlib.image as mpimg 
 import matplotlib.pyplot as plt 
   
 # Read Images 
-img = mpimg.imread('Imag.png') 
-  
+img = mpimg.imread('NewProject/Image/Test.jpg')
+plt.imshow(img)
+plt.show()
 # Output Images 
-plt.imshow(img) 
+print('showed')
